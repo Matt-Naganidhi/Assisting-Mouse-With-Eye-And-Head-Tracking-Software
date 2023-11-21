@@ -1,4 +1,5 @@
 #Made by Matt Naganidhi 21st of November 2023
+#import libraries
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -8,7 +9,7 @@ from screeninfo import get_monitors
 from pynput import mouse
 import threading
 
-
+#level of sensitivity
 sensitivity = 1
 last_mouse_position = None
 # Initialize MediaPipe Face Mesh
